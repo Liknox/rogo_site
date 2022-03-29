@@ -1,0 +1,10 @@
+/* ! NexaBold font */
+@font-face {
+    font-family: NexaBold;
+    src: url(../fonts/NexaBold.otf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../font/Inter-Regular.ttf);
+}
