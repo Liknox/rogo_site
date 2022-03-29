@@ -1,0 +1,65 @@
+
+* {
+  box-sizing: border-box;
+  
+}
+html{
+  margin: 0;padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a:focus,
+a:active,
+a:hover {
+  outline: 0;
+}
+
+img {
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic; 
+  vertical-align: middle;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical;
+}
+
+form {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+span{
+  border: none;
+}
+
+/* -------- End -------- */
+
