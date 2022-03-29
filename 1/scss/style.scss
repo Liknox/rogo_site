@@ -2,6 +2,10 @@
     font-family: NexaBold;
     src: url(../font/NexaBold.otf);
 }
+@font-face{
+    font-family: Inter;
+    src: url(../font/Inter-Regular.ttf);
+}
 
 .wrapper{
 	margin: 0 auto;
@@ -129,5 +133,46 @@
 		line-height: 160%;
 		text-align: center;
 		color: #8694AB;
+	}
+}
+
+.team{
+	background: url('../img/team_back.png');
+	text-align: center;
+}
+
+.team-photos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 180px;
+	& div{
+		padding: 0 44px;
+	}
+}
+
+.team-content{
+	& h3{
+		padding-top: 120px;
+		font-family: NexaBold;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 44px;
+		text-align: center;
+		color: #FFFFFF;
+		padding-bottom: 23px;
+	}
+	& p{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 150%;
+		text-align: center;
+		color: #F8FAFB;
+	}
+	& p:last-child{
+		padding-bottom: 55px;
+
 	}
 }
