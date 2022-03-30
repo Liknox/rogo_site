@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="assets/css/fonts.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/reset.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+		<title>Rego</title>
+	</head>
+	<body>
+		<header class="header" id="header">
+			<div class="wrapper">
+				<div class="header__inner">
+					<div class="header__logo" data-scroll="#intro">
+						<a class="Rogo" href="#" id="rogo">
+							<img src="img/Rogo_Logo.png" alt="" class="header__img" />
+						</a>
+					</div>
+
+					<nav class="nav" id="nav">
+						<a class="nav__link" href="#platform">Our Platform</a>
+						<a class="nav__link" href="#features" data-scroll="">Features</a>
+						<a class="nav__link" href="#team">Team</a>
+						<a class="nav__link" target="_blank" href="https://boards.greenhouse.io/rogo">Careers</a>
+
+						<button class="nav__log" href="#">Log in</button>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+
+		<div class="intro">
+			<div class="container">
+				<div class="intro__inner">
+					<h1 class="intro__title">Ask your data anything. Seriously.</h1>
+					<div class="intro__subtitle">Rogo is the universal API for financial services data analytics. One API to integrate with every market, defi, and alternative data source.</div>
+					<form class="intro__form">
+
+						 <!-- Hidden Required Fields -->
+		                  <input type="hidden" name="project_name" value="Rego">
+		                  <input type="hidden" name="admin_email" value="nazar.koval03@gmail.com"><!-- team@rogodata.com Admin mail -->
+		                  <input type="hidden" name="form_subject" value="Email">
+		                  <!-- END Hidden Required Fields -->
+						<input type="text" class="intro__input" placeholder="Your email address" name="email" id="email" required/>
+						<button id="submit" type="submit" class="intro__submit r">Request access</button>
+					</form>
+				</div>
+				<div class="intro__template">
+					<img src="img/Dashboard.png" class="intro__img" alt="" />
+				</div>
+			</div>
+		</div>
+
+
+		<section class="platform" id="platform">
+
+			<div class="platform-video">
+				 <video autoplay muted loop class="">
+				  <source src="video/Search_data_3 (1) – копія.mp4" type="video/mp4">
+				</video> 	
+			</div>
+
+			<!-- <div class="platform-content">
+				<h2>Search your data</h2>
+				<p>Run all your data querying, visualization, and analysis through our natural language interface – as if you’re talking to a real data scientist.</p>
+				<div class="platform-text__img">
+					<img src="img/platform1.png" alt="" />
+				</div>
+				<div class="platform-search">
+					<img src="img/platform-search.png" alt="" />
+				</div>
+			</div> -->
+		</section>
+		<section class="features" id="features">
+			<div class="features-content">
+				<div class="features-content__text">
+					<h2>Combine data</h2>
+					<p>
+						Integrate metrics from all your data <br />
+						sources into the same analyses with the<br />
+						click of a button.
+					</p>
+				</div>
+				<div class="features-content__img">
+					<div class="features-img">
+						<img src="img/features.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features-cards">
+			<div class="wrapper">
+				<div class="features-cards__content">
+					<div class="features-card">
+						<div class="features-card__icon">
+							<img src="img/Graph.svg" alt="" />
+						</div>
+						<h3>Classic financial data</h3>
+						<p>Market data <br />Fundamentals data <br />Estimates data</p>
+					</div>
+					<div class="features-card">
+						<div class="features-card__icon">
+							<img src="img/CPU.svg" alt="" />
+						</div>
+						<h3>Crypto data</h3>
+						<p>Price & volume data <br />Volatility / skew data <br />On-chain analytics data</p>
+					</div>
+					<div class="features-card">
+						<div class="features-card__icon">
+							<img src="img/Activity.svg" alt="" />
+						</div>
+						<h3>Macro data</h3>
+						<p>Currency data <br />Commodities data <br />Global economy data</p>
+					</div>
+				</div>
+				<div class="features-cards__content">
+					<div class="features-card">
+						<div class="features-card__icon">
+							<img src="img/Filter.svg" alt="" />
+						</div>
+						<h3>Alternative data</h3>
+						<p>Sentiment data <br />Developer data <br />Consumer data</p>
+					</div>
+					<div class="features-card">
+						<div class="features-card__icon">
+							<img src="img/Chart.png" alt="" />
+						</div>
+						<h3>Supplementary data</h3>
+						<p>Employment data<br />Web traffic data<br />Flight data</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="features">
+			<div class="features-content">
+				<div class="features-content__img">
+					<div class="features-img">
+						<img src="img/unlock-chart.png" alt="" />
+					</div>
+				</div>
+				<div class="features-content__text last">
+					<h2>Unlock insights</h2>
+					<p>
+						Harness the power of data science and <br />
+						uncover relationships faster and easier <br />
+						than ever before.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="features">
+			<div class="features-content">
+				<div class="features-content__text">
+					<h2>Quickly <br />visualize trends</h2>
+					<p>
+						Build charts and graphs by simply telling Rogo <br />
+						what you want to see. Conduct quick, easy, <br />effective, and actionable exploratory data <br />
+						analysis with no headache.
+					</p>
+				</div>
+				<div class="features-content__img">
+					<div class="features-img">
+						<img src="img/quickly-chart.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="features">
+			<div class="features-content">
+				<div class="features-content__img">
+					<div class="features-img">
+						<img src="img/export.png" alt="" />
+					</div>
+				</div>
+				<div class="features-content__text last">
+					<h2>Export your work</h2>
+					<p>Easily verify data fidelity and seamlessly integrate your analysis on Rogo into your existing data workflow using our export options.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="team" id="team">
+			<div class="wrapper">
+				<div class="team-content">
+					<h3>Meet the team behind the next revolution in data analytics</h3>
+					<p>
+						We are engineering and product leaders with first-hand analytics experience across <br />
+						financial services verticals.
+					</p>
+					<p>
+						Our leadership team has over 50 years of combined experience creating cutting edge <br />
+						software and data science solutions.
+					</p>
+				</div>
+				<div class="team-photos">
+					<div><img src="img/EG_logo_white 1.png" alt="" /></div>
+					<div><img src="img/zola.png" alt="" /></div>
+					<div><img src="img/J_P_Morgan_Logo_2008_1 1.png" alt="" /></div>
+					<div><img src="img/Barclays-Logo.wine 1.png" alt="" /></div>
+					<div><img src="img/Lazard_Logo_1 1.png" alt="" /></div>
+					<div><img src="img/alleycorp.png" alt="" /></div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container_2">
+				<div class="footer__inner">
+					<div class="footer__col footer__col--first">
+						<div class="footer__logo">
+							<a class="Rogo" href="#" id="rogo">
+								<img src="img/Rogo_Logo.png" alt="" class="footer__img" />
+							</a>
+						</div>
+
+						<div class="footer__netw">
+							<span class="footer__netw--1"><a target="_blank" href="https://www.linkedin.com/company/rogodata/"><img src="img/Linkedin.png" alt="" /></a></span>
+							<span class="footer__netw--2"><a target="_blank" href=""></a><img src="img/Twitter.png" alt="" /></span>
+						</div>
+					</div>
+
+					<div class="footer__col footer__col--second">
+						<p><a class="footer__features" href="#platform">Our Platform</a></p>
+						<p><a class="footer__features" href="#features">Features</a></p>
+						<p><a class="footer__features" href="#team">Team</a></p>
+						<p><a class="footer__features" target="_blank" href="https://boards.greenhouse.io/rogo">Careers</a></p>
+					</div>
+					<div class="footer__col footer__col--third">
+						<span class="footer__subtitle">Request access</span>
+						<form class="intro__form">
+							<!-- Hidden Required Fields -->
+		                  <input type="hidden" name="project_name" value="Rego">
+		                  <input type="hidden" name="admin_email" value="nazar.koval03@gmail.com"><!--  Admin mail -->
+		                  <input type="hidden" name="form_subject" value="Email">
+		                  <!-- END Hidden Required Fields -->
+							<input type="text" class="intro__input" placeholder="Your email address" name="email" id="email" required/>
+							<button type="submit" id="submit" class="intro__submit">Request access</button>
+						</form>
+					</div>
+				</div>
+				<div class="footer__copyright">(c) Rogo Technologies, Inc. 2022</div>
+			</div>
+		</footer>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
